@@ -1,0 +1,6 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: url("../../assets/home-banner.jpg");
+    background-size: cover;
+}
