@@ -1,5 +1,11 @@
 # Remanso del Rodeo Landpage
 
+## Page
+https://remanso-del-rodeo.netlify.app/#project
+
+## API
+https://remanso-rodeo-api.herokuapp.com/people
+
 ## Desktop
 ![alt text](https://res.cloudinary.com/dqcyu2ism/image/upload/v1611937205/Vecindario/desktop-home_fphllj.png)
 ![alt text](https://res.cloudinary.com/dqcyu2ism/image/upload/v1611937832/Vecindario/desktop-project_uvbc8p.png)
