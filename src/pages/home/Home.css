@@ -38,6 +38,10 @@
     padding: 10px 5%;
 }
 
+.home__form form {
+    width: 100%
+}
+
 .home__header {
     margin: 15px 0;
 }
@@ -81,6 +85,11 @@
 }
 
 .home__form__button:active {
+    transform: scale(0.96);
+}
+
+.home__form__button:disabled {
+    background-color: lightgrey;
     transform: scale(0.96);
 }
 
