@@ -90,7 +90,6 @@
 
 .home__form__button:disabled {
     background-color: lightgrey;
-    transform: scale(0.96);
 }
 
 .home__error-message {
