@@ -1,0 +1,25 @@
+.success-message {
+    width: 100%;
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-message__text {
+    font-size: 1.8rem;
+    color: #46200D;
+    font-weight: 400;
+}
+
+.success-message__text--bold {
+    font-weight: bold;
+}
+
+.success-message__secondary-text {
+    font-size: 2rem;
+    color: whitesmoke;
+    font-weight: 400;
+    margin-top: 50px;
+}

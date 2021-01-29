@@ -1,0 +1,12 @@
+.error-message {
+    text-align: left;
+    color: #fab54b;
+    font-weight: 400;
+    width: 100%;
+    padding: 0 5px;
+    min-height: 15px;
+}
+
+.error-message p {
+    text-align: left;
+}

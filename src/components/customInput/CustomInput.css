@@ -1,0 +1,16 @@
+.custom-input {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.custom-input input {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 8px 10px;
+    text-align: left;
+    border-radius: 5px;
+    color: gray;
+    font-size: 0.9rem;
+}
+

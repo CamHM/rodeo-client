@@ -5,13 +5,9 @@
   text-align: center;
   font-size: 16px;
   scroll-behavior: smooth;
+  font-family: 'Barlow Condensed';
 }
 
-.app__header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 70px;
-  width: 100%;
-  background-color: #46200D
+.body::-webkit-scrollbar {
+  display: none;
 }
