@@ -100,3 +100,13 @@
         border-top-left-radius: 70px;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .home__box {
+        margin-top: 30px;
+    }
+
+    .home__form__title {
+        font-size: 1.5rem;
+    }
+}

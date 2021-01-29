@@ -23,7 +23,7 @@ const Promo = () => {
       </div>
       <hr />
       <h1 className='promo__end-text'>
-        Medellín Belen{' '}
+        Medellín Belén{' '}
         <span className='promo__end-text promo__text--bold'>- sector Rodeo Alto</span>
       </h1>
     </div>
