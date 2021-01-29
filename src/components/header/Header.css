@@ -6,6 +6,7 @@
     width: 100%;
     background-color: #46200D;
     box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.3);
+    padding: 0 20px;
 }
 
 
@@ -28,7 +29,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 0 20px;
 }
 
 .header ul li {
@@ -47,8 +47,33 @@
     color: white;
 }
 
+.header__menu {
+    display: none;
+    background: #ffffff00;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header__menu i {
+    color: white;
+}
+
 @media only screen and (max-width: 1300px) {
     .header ul {
         justify-content: flex-end;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .header ul {
+        display: none;
+    }
+
+    .header__menu {
+        display: block;
+        margin-left: auto;
     }
 }
