@@ -1,7 +1,10 @@
 import './CustomInput.css';
 
-const CustomInput = () => {
-    return <input/>
-}
+const CustomInput = ({ required, ...props }) => {
+  const { placeholder } = { ...props };
+  const newPlaceholder = required ? `${placeholder}*` : placeholder;
 
-export default CustomInput
+  return <input {...props} placeholder={newPlaceholder} className='custom-input' />;
+};
+
+export default CustomInput;
