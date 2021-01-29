@@ -1,7 +1,7 @@
 # Remanso del Rodeo Landpage
 
 ## Page
-https://remanso-del-rodeo.netlify.app/#project
+https://remanso-del-rodeo.netlify.app/
 
 ## API
 https://remanso-rodeo-api.herokuapp.com/people
