@@ -39,7 +39,7 @@
 }
 
 .home__form form {
-    width: 100%
+    width: 90%
 }
 
 .home__header {
@@ -93,6 +93,11 @@
     transform: scale(0.96);
 }
 
+.home__error-message {
+    color: #fab54b;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1000px) {
     .home__box{
         width: 90vw;
@@ -117,5 +122,9 @@
 
     .home__form__title {
         font-size: 1.5rem;
+    }
+
+    .home__form form {
+        width: 80%
     }
 }

@@ -4,7 +4,7 @@ import './CustomInput.css';
 
 const CustomInput = ({ required, ...props }) => {
   const { placeholder, name } = { ...props };
-  const  { errors, touched, setFieldTouched, values, setFieldValue } = useFormikContext();
+  const  { errors, touched, values, setFieldValue, handleBlur } = useFormikContext();
 
   const newPlaceholder = required ? `${placeholder}*` : placeholder;
 
@@ -14,7 +14,7 @@ const CustomInput = ({ required, ...props }) => {
 
   return (
     <div className='custom-input'>
-      <input {...props} placeholder={newPlaceholder} onBlur={() => setFieldTouched(name)}
+      <input {...props} placeholder={newPlaceholder} onBlur={handleBlur}
              value={values[name]} onChange={e => setFieldValue(name, e.target.value)} />
       <ErrorMessage visible={showError} error={error} />
     </div>
